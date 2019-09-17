@@ -1,0 +1,66 @@
+.btn{
+ -fx-background-color:#94d6a6;
+ -fx-font-size: 17;
+ -fx-font-family: "Courier New";
+ -fx-font-weight:700;
+ -fx-border-radius:30;
+ -fx-background-radius: 40;
+ -fx-cursor:pointer;
+}
+.btn: hover{
+-fx-cursor: hand;
+}
+
+.btn-s{
+-fx-background-color: none;
+ -fx-font-size: 16;
+ -fx-font-family: "Courier New";
+ -fx-font-weight:700;
+ -fx-background-radius: 7;
+}
+
+.btn-s: hover{
+-fx-cursor: hand;
+}
+
+.text-field{
+-fx-font-size: 22;
+-fx-font-color: black;
+-fx-font-family: "Courier New";
+-fx-font-weight:700;
+-fx-font-color: black;
+-fx-background-color:rgba(165,165,165, .7);
+-fx-background-radius: 20;
+}
+
+.check-box .box{
+-fx-background-color:none;
+-fx-border-color:rgba(160,160,160, .7);
+-fx-border-width: 3;
+-fx-border-radius: 20;
+}
+
+.check-box:selected .mark {
+-fx-background-color: rgba(160,160,160, .3);
+}
+
+.check-box:selected .box {
+-fx-border-color:rgba(160,160,160, .1);
+}
+.check-box: hover{
+-fx-cursor: hand;
+}
+
+.note-box{
+-fx-alignment: center;
+-fx-spacing: 20;
+
+}
+.box-of-notes-solid{
+-fx-background-color: white;
+}
+
+.box-of-notes-image{
+-fx-background-color:black;
+-fx-background-image: url("../../../resources/forestImage.jpg");
+}

@@ -1,0 +1,23 @@
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.CheckBox?>
+
+<?import javafx.scene.control.ScrollBar?>
+<VBox fx:controller="Controller"
+      fx:id="boxOfNotes"
+      xmlns:fx="http://javafx.com/fxml"
+      prefHeight="600" prefWidth="400" spacing="10"
+      styleClass="box-of-notes-image">
+    <padding>
+        <Insets topRightBottomLeft="10"/>
+    </padding>
+    <HBox alignment="center" spacing="50">
+        <Button text="+" prefWidth="75" prefHeight="40" onAction="#addNote" styleClass="btn"/>
+        <Button text="-" prefWidth="75" prefHeight="40" onAction="#deleteNote" styleClass="btn"/>
+        <Button text="s" prefWidth="20"  onAction="#changeBackground" styleClass="btn-s"/>
+    </HBox>
+
+</VBox>
